@@ -1,0 +1,184 @@
+    .body {
+        background-image: url("bkimg.jpg");
+        background-size: cover;
+        position: relative;
+    }
+    
+    .ver {
+        color: antiquewhite;
+        padding-left: 3px;
+        font-size: 20px;
+        width: 140px;
+        height: 30px;
+        background-color: rgb(4, 11, 68);
+        border-radius: 5px;
+        text-shadow: 0 0 3px #1ec5db, 0 0 3px #14d5db, 0 0 3px #d42d49, 0 0 5px #65f1f1;
+        box-shadow: 0 0 5px #0edbe2, 0 0 25px #09c4bb, 0 0 50px #25e9be, 0 0 200px #65f1f1;
+        -webkit-box-reflect: below 1px linear-gradient(transition, #0005);
+    }
+    
+    .display {
+        width: 400px;
+        height: 600px;
+        border-radius: 20px;
+        margin: auto;
+        position: relative;
+        top: 30px;
+        background-image: linear-gradient(rgb(231, 91, 115), rgb(18, 230, 177), rgb(28, 183, 211));
+        background-size: cover;
+        box-shadow: 0 0 5px #035b5e, 0 0 25px #1fb1eb, 0 0 50px #2ef1d1, 0 0 200px #18bff1;
+        -webkit-box-reflect: below 1px linear-gradient(transition, rgba(161, 226, 252, 0.333));
+    }
+    
+    #city {
+        font-size: 30px;
+        text-align: center;
+        color: rgb(20, 207, 182);
+        text-shadow: 0 0 3px #1ec5db, 0 0 3px #14d5db, 0 0 3px #d42d49, 0 0 5px #65f1f1;
+    }
+    
+    .date {
+        text-align: center;
+        color: antiquewhite;
+        text-shadow: 0 0 3px #1ec5db, 0 0 3px #1abcd1, 0 0 3px #d42d49, 0 0 5px #65f1f1;
+    }
+    
+    .data {
+        width: 350px;
+        height: 400px;
+        margin: auto;
+        margin-bottom: 5px;
+        position: relative;
+        top: 30px;
+    }
+    
+    .temp {
+        text-align: center;
+        font-size: 40px;
+        color: antiquewhite;
+        text-shadow: 0 0 3px #1ec5db, 0 0 3px #1abcd1, 0 0 3px #d42d49, 0 0 5px #65f1f1;
+        margin: auto;
+        width: 200px;
+        border: 2px solid rgb(66, 219, 211);
+        border-radius: 5px;
+        box-shadow: 0 0 3px #2ce2e2, 0 0 3px #1abcd1, 0 0 3px #d42d5f, 0 0 5px #d83f9d;
+    }
+    
+    #ticon {
+        position: relative;
+        right: 15px;
+        top: 10px;
+    }
+    
+    #high,
+    #low {
+        float: left;
+        color: antiquewhite;
+        font-size: 20px;
+        text-shadow: 0 0 3px #1ec5db, 0 0 3px #1abcd1, 0 0 3px #d42d49, 0 0 5px #65f1f1;
+    }
+    
+    #high {
+        position: relative;
+        left: 80px;
+        top: 10px;
+    }
+    
+    #low {
+        position: relative;
+        left: 130px;
+        top: 10px;
+    }
+    
+    #desc {
+        text-align: center;
+        position: relative;
+        color: antiquewhite;
+        left: 1px;
+        font-size: 20px;
+        text-shadow: 0 0 3px #1ec5db, 0 0 3px #1abcd1, 0 0 3px #d42d49, 0 0 5px #65f1f1;
+    }
+    
+    #win {
+        position: relative;
+        top: 70px;
+        left: 5px;
+        font-size: 25px;
+        color: antiquewhite;
+        padding: 5px;
+        text-shadow: 0 0 3px #1ec5db, 0 0 3px #1abcd1, 0 0 3px #d42d49, 0 0 5px #65f1f1;
+    }
+    
+    #speed {
+        position: relative;
+        left: 180px;
+        top: 35px;
+        font-size: 25px;
+        color: antiquewhite;
+        text-shadow: 0 0 3px #1ec5db, 0 0 3px #1abcd1, 0 0 3px #d42d49, 0 0 5px #65f1f1;
+    }
+    
+    .rain {
+        position: relative;
+        top: 90px;
+        left: 130px;
+        font-size: 22px;
+        color: antiquewhite;
+        text-shadow: 0 0 3px #1ec5db, 0 0 3px #1abcd1, 0 0 3px #d42d49, 0 0 5px #65f1f1;
+    }
+    
+    #sunrise {
+        position: relative;
+        top: 50px;
+        color: antiquewhite;
+        left: 35px;
+        font-size: 20px;
+        text-shadow: 0 0 3px #1ec5db, 0 0 3px #1abcd1, 0 0 3px #d42d49, 0 0 5px #65f1f1;
+    }
+    
+    #rise {
+        position: relative;
+        top: 80px;
+    }
+    
+    #sunset {
+        position: relative;
+        left: 270px;
+        top: 26px;
+        color: antiquewhite;
+        font-size: 20px;
+        text-shadow: 0 0 3px #1ec5db, 0 0 3px #1abcd1, 0 0 3px #d42d49, 0 0 5px #65f1f1;
+    }
+    
+    #set {
+        position: relative;
+        left: 200px;
+        top: 83px;
+    }
+    
+    #humidity {
+        color: antiquewhite;
+        position: relative;
+        top: 50px;
+        left: 50px;
+        font-size: 20px;
+        text-shadow: 0 0 3px #1ec5db, 0 0 3px #1abcd1, 0 0 3px #d42d49, 0 0 5px #65f1f1;
+    }
+    
+    #pressure {
+        color: antiquewhite;
+        position: relative;
+        top: 28px;
+        left: 250px;
+        font-size: 20px;
+        text-shadow: 0 0 3px #1ec5db, 0 0 3px #1abcd1, 0 0 3px #d42d49, 0 0 5px #65f1f1;
+    }
+    
+    #feel {
+        color: antiquewhite;
+        position: relative;
+        top: 50px;
+        text-align: center;
+        font-size: 20px;
+        text-shadow: 0 0 3px #1ec5db, 0 0 3px #1abcd1, 0 0 3px #d42d49, 0 0 5px #65f1f1;
+    }
